@@ -1,2 +1,0 @@
-# HyPlayer
-BETA
