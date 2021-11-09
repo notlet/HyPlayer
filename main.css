@@ -1,0 +1,52 @@
+* {
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #121212;
+    color: #ededed;
+    font-family: 'Oswald';
+    overflow: hidden;
+}
+#apiKey {
+    background: #2c2c2c;
+    color: #3f3f3f;
+    transition: all 200ms;
+    width: 100%;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Oswald';
+    text-align: center;
+    border: 2px solid #3f3f3f;
+}
+
+#apiKey:focus {
+    background: #bebebe;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+}
+
+#playerName {
+    background: #2c2c2c;
+    color: #e4e4e4;
+    transition: all 200ms;
+    width: 80%;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Oswald';
+    text-align: center;
+    border: 2px solid #242424;
+}
+
+#playerName:focus {
+    background: #ececec;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+}
+.amogus {
+    color: #00d9ff
+}

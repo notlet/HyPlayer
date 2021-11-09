@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>HyPlayer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./themes/dark.css" id="theme">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <script src="./modules/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./modules/sweetalert.min.js"></script>
+</head>
+
+<body style="margin: 0;">
+    <div style="width: 40%; margin: auto;">
+        <input id="apiKey" type="text" placeholder="Your API key..." onkeyup="keyPlaceholderChange(this)">
+    </div>
+    <div style="width: 80%; height: 80%; margin: auto; display: table;">
+        <div style="display: table-cell; width: 30%; text-align: center;">
+            <input id="playerName" type="text" placeholder="Player Username...">
+            <img id="playerSkin" style="display: block; margin: 0 auto;"
+                src="https://crafatar.com/renders/body/f498513ce8c84773be26ecfc7ed5185d?overlay=true" alt="Skin">
+        </div>
+        <div style="display: table-cell;">
+            <div>Rank: <a id="hypixelRank">???</a></div>
+            <div>Hypixel Level: <a id="hypixelLVL">???</a></div>
+            <div>Hypixel Karma: <a id="hypixelKarma">???</a></div>
+        </div>
+        <div style="display: table-cell; width: 35%;">
+            <div style="height: 80%;">One-Time Achievements:
+                <div style="display: block; width: 100%; height: 60vh; overflow-y: auto;" id="oneTimeAchievementsList"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
